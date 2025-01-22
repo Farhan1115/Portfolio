@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Farhan's Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+
+    <section id="hero" class="h-screen w-screen bg-gray-50">
+
+        <header class="flex justify-between items-center p-4 text-white fixed bg-gray-100 border-b-2 w-full z-10">
+            <h1 class="text-2xl font-bold text-black ml-[10vw]">
+                <a href="#hero">Farhan</a>
+            </h1>
+
+            <nav>
+                <ul class="flex gap-8 uppercase mr-[10vw] text-black font-mono">
+                    <li><a href="#about" class="hover:text-blue-600 transition-all duration-300">about me</a></li>
+                    <li><a href="#education" class="hover:text-blue-600 transition-all duration-300">education</a>
+                    </li>
+                    <li><a href="#skills" class="hover:text-blue-600 transition-all duration-300">skills</a></li>
+                    <li><a href="#projects" class="hover:text-blue-600 transition-all duration-300">projects</a></li>
+                    <li><a href="#contact" class="hover:text-blue-600 transition-all duration-300">contact</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <div id="profile" class="flex flex-row items-center justify-between text-center text-white h-full mx-[10vw] pt-12">
+
+            <div id="bio" class="flex flex-col items-start space-y-8">
+
+                <h2 id="animated-text" class="text-5xl text-black">Hi, I'm <span class="font-bold">Farhan Uddin
+                        Rifat</span></h2>
+                <p class="text-xl text-black">Competitive Programmer | Aspiring Software Engineer</p>
+
+                <button
+                    class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-lg transition-colors duration-200">
+                    <a href="#projects">Projects</a>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+            <div id="image" class=" w-1/3 bg-gray-600 rounded-full flex items-center justify-center rounded-full overflow-hidden shadow-xl shadow-black">
+                <img src="farhan.jpg" alt="farhan">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About Me Section -->
+
+    <section id="about" class="w-screen py-20">
+
+        <div class="max-w-3xl mx-auto text-center">
+
+            <h2 class="text-5xl font-bold text-gray-800 uppercase">About Me</h2>
+
+            <p class="mt-10 text-gray-600 text-lg">
+                Hi, I'm <span class="font-bold text-gray-900">Md Farhan Uddin Rifat</span>, a passionate <span
+                    class="text-blue-600">Web Developer</span> and <span class="text-blue-600">Competitive
+                    Programmer</span>.
+                With over 3 years of experience, I specialize in building responsive and user-friendly web applications.
+                My technical expertise includes <span class="font-medium">React, Node.js, Tailwind CSS,</span> and more.
+            </p>
+
+            <p class="mt-10 text-gray-600 text-lg">
+                Outside of work, I enjoy <span class="font-medium">playing online games, reading tech blogs,</span> and
+                exploring advancements in <span class="font-medium">AI and Machine Learning</span>.
+                I’m always eager to collaborate on exciting projects and learn something new every day.
+            </p>
+
+            <p class="mt-10">
+                <a href="#contact" class="bg-blue-600 text-white p-3 rounded hover:bg-blue-600">Get in Touch</a>
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Education Info Section -->
+
+    <section id="education" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <!-- Section Title -->
+            <h2 class="text-5xl font-bold text-center mb-12 uppercase">Education</h2>
+
+            <!-- Education Timeline -->
+            <div class="max-w-5xl mx-auto space-y-8">
+                <!-- BSc Entry -->
+                <div class="relative pl-8 border-l-2 border-blue-500">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <span
+                            class="absolute -left-3 bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
+                            <i class="fas fa-graduation-cap text-sm"></i>
+                        </span>
+                        <h3 class="text-xl font-semibold text-blue-600">Bachelor of Science in Computer Science and Engineering</h3>
+                        <p class="text-gray-600 mt-1">International Islamic University Chittagong</p>
+                        <p class="text-gray-500 mt-1">2022 - Present</p>
+                        <p class="text-gray-700 mt-3">CGPA: 3.73</p>
+                    </div>
+                </div>
+
+                <!-- HSC Entry -->
+                <div class="relative pl-8 border-l-2 border-blue-500">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <span
+                            class="absolute -left-3 bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
+                            <i class="fas fa-school text-sm"></i>
+                        </span>
+                        <h3 class="text-xl font-semibold text-blue-600">Higher Secondary Certificate (HSC)</h3>
+                        <p class="text-gray-600 mt-1">Nazirhat College</p>
+                        <p class="text-gray-500 mt-1">2017 - 2019</p>
+                        <p class="text-gray-700 mt-3">GPA: 4.58</p>
+                        <p class="text-gray-600 mt-1">Science Group</p>
+                    </div>
+                </div>
+
+                <!-- SSC Entry -->
+                <div class="relative pl-8 border-l-2 border-blue-500">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <span
+                            class="absolute -left-3 bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
+                            <i class="fas fa-school text-sm"></i>
+                        </span>
+                        <h3 class="text-xl font-semibold text-blue-600">Secondary School Certificate (SSC)</h3>
+                        <p class="text-gray-600 mt-1">Nazirhat Adarsha High School</p>
+                        <p class="text-gray-500 mt-1">2015 - 2017</p>
+                        <p class="text-gray-700 mt-3">GPA: 4.86</p>
+                        <p class="text-gray-600 mt-1">Science Group</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Info Section -->
+
+    <section id="skills" class="w-screen py-20">
+
+        <h2 class="text-5xl font-bold text-center mb-12 uppercase">skills</h2>
+
+        <!-- Programming Language -->
+
+        <div class="max-w-5xl mx-auto">
+            <!-- Section Header -->
+            <h2 class="text-xl font-semibold text-blue-600 flex items-center gap-2">
+                <i class="fas fa-code-branch"></i> Programming Languages
+            </h2>
+            <p class="text-sm text-gray-500">Several years of experience</p>
+
+            <!-- Skill Bars -->
+            <div class="mt-6 space-y-4">
+                <!-- Skill -->
+                <div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-700">C</span>
+                        <span class="text-gray-500 text-sm">80%</span>
+                    </div>
+                    <div class="w-full h-2 bg-gray-200 rounded-full">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-700">Python</span>
+                        <span class="text-gray-500 text-sm">70%</span>
+                    </div>
+                    <div class="w-full h-2 bg-gray-200 rounded-full">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 70%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-700">C++</span>
+                        <span class="text-gray-500 text-sm">95%</span>
+                    </div>
+                    <div class="w-full h-2 bg-gray-200 rounded-full">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 95%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-700">C#</span>
+                        <span class="text-gray-500 text-sm">70%</span>
+                    </div>
+                    <div class="w-full h-2 bg-gray-200 rounded-full">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 70%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-700">JavaScript</span>
+                        <span class="text-gray-500 text-sm">65%</span>
+                    </div>
+                    <div class="w-full h-2 bg-gray-200 rounded-full">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 65%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-700">Java</span>
+                        <span class="text-gray-500 text-sm">75%</span>
+                    </div>
+                    <div class="w-full h-2 bg-gray-200 rounded-full">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 75%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Competitive Programming Platforms -->
+
+        <div class="max-w-5xl mx-auto mt-20">
+            <!-- Section Header -->
+            <h2 class="text-xl font-semibold text-blue-600 flex items-center gap-2">
+                <i class="fa-solid fa-code"></i> Competitive Programming Platforms
+            </h2>
+            <p class="text-sm text-gray-500">Several years of experience</p>
+
+            <div class="max-w-6xl mx-auto mt-6 text-center">
+
+                <!-- Ratings Grid -->
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Codeforces Card -->
+                    <div class="bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
+                        <div class="flex items-center gap-4">
+                            <i class="fab fa-codepen text-4xl text-blue-500"></i>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800">Codeforces</h3>
+                                <a href="https://codeforces.com/profile/IAmFarhanRifat" class="text-blue-400">@IAmFarhanRifat</a>
+                            </div>
+                        </div>
+                        <p class="mt-4 text-lg font-semibold text-blue-600">Rating: 1099 (Newbie)</p>
+                    </div>
+
+                    <!-- CodeChef Card -->
+                    <div class="bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
+                        <div class="flex items-center gap-4">
+                            <i class="fas fa-utensils text-4xl text-orange-500"></i>
+                            <div>
+                                <h3 class="text-xl font-bold">CodeChef</h3>
+                                <a href="https://www.codechef.com/users/farhan_rifat" class="text-blue-400">@farhan_rifat</a>
+                            </div>
+                        </div>
+                        <p class="mt-4 text-lg font-semibold text-orange-600">Rating: 1443 (2-Star)</p>
+                    </div>
+
+                    <!-- AtCoder Card -->
+                    <div class="bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
+                        <div class="flex items-center gap-4">
+                            <i class="fas fa-laptop-code text-4xl text-purple-500"></i>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800">AtCoder</h3>
+                                <a href="https://atcoder.jp/users/IAmFarhanRifat" class="text-blue-400">@FIAmFarhanRifat</a>
+                            </div>
+                        </div>
+                        <p class="mt-4 text-lg font-semibold text-purple-600">Rating: 29</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Projects Info Section -->
+
+    <section id="projects" class="projects w-screen bg-gray-50 py-20">
+
+        <h2 class="text-5xl font-bold text-center mb-24 uppercase">projects</h2>
+
+        <!-- QT project -->
+
+        <div class="flex items-center justify-center gap-52">
+
+            <h2 class="text-3xl text-black flex flex-col"><span class="font-bold text-6xl text-blue-600">QT</span>
+                Project</h2>
+
+            <div class="w-1 rounded-lg h-24 bg-blue-600"></div>
+
+            <div class="flex flex-col gap-4 w-1/4 p-2 rounded-xl hover:bg-gray-200 transition-all duration-300">
+
+                <img src="ai_doctor.jpg" alt="" class="w-full rounded-xl">
+                <h3 class="font-semibold text-xl">AI Doctor</h3>
+                <a href="https://github.com/Farhan1115/Ai-Doctor"
+                    class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded-lg transition-colors duration-200 w-50">
+                    Visit
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+        </div>
+
+        <!-- JAVA project -->
+
+        <div class="flex items-center justify-center gap-52 mt-28">
+
+            <div class="flex flex-col gap-4 w-1/4 p-2 rounded-xl hover:bg-gray-200 transition-all duration-300">
+
+                <img src="employee.jpg" alt="" class="w-full rounded-xl">
+                <h3 class="font-semibold text-xl">Employee Management System</h3>
+                <button
+                    class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded-lg transition-colors duration-200 w-50">
+                    <span>Visit</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+            <div class="w-1 rounded-lg h-24 bg-blue-600"></div>
+
+            <h2 class="text-3xl text-black flex flex-col"><span class="font-bold text-6xl text-blue-600">JAVA</span>
+                Project</h2>
+
+        </div>
+
+        <!-- Chicken Breed project -->
+
+        <div class="flex items-center justify-center gap-52 mt-28">
+
+            <h2 class="text-3xl text-black flex flex-col"><span class="font-bold text-6xl text-blue-600">Chicken<br>Breed</span>
+                Project</h2>
+
+            <div class="w-1 rounded-lg h-24 bg-blue-600"></div>
+
+            <div class="flex flex-col gap-4 w-1/4 p-2 rounded-xl hover:bg-gray-200 transition-all duration-300">
+
+                <img src="chicken.jpg" alt="" class="w-full rounded-xl">
+                <h3 class="font-semibold text-xl">Chicken Breed</h3>
+                <a href="https://github.com/Farhan1115/Chicken-Breed-Recognition"
+                    class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded-lg transition-colors duration-200 w-50">
+                    Visit
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Contact Info Section -->
+
+    <section id="contact" class="w-screen py-20">
+
+        <h2 class="text-5xl font-bold text-center mb-12 uppercase">contact</h2>
+        <div class="max-w-6xl mx-auto p-6">
+            <!-- Telegram -->
+            <div class="flex items-center gap-4 mb-4">
+                <div class="w-8 h-8 flex items-center justify-center text-blue-600">
+                    <i class="fab fa-telegram text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="font-medium text-gray-900">Telegram</h3>
+                    <p class="text-gray-500">@farhan</p>
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="flex items-center gap-4 mb-4">
+                <div class="w-8 h-8 flex items-center justify-center text-blue-600">
+                    <i class="far fa-envelope text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="font-medium text-gray-900">Email</h3>
+                    <p class="text-gray-500">c221115@ugrad.iiuc.ac.bd</p>
+                </div>
+            </div>
+
+            <!-- Location -->
+            <div class="flex items-center gap-4 mb-8">
+                <div class="w-8 h-8 flex items-center justify-center text-blue-600">
+                    <i class="fas fa-map-marker-alt text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="font-medium text-gray-900">Location</h3>
+                    <p class="text-gray-500">Agrabad, Chittagong, Bangladesh</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="space-y-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <!-- Name Input -->
+                    <input type="text" placeholder="Name"
+                        class="w-full px-4 py-2 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+
+                    <!-- Email Input -->
+                    <input type="email" placeholder="Email"
+                        class="w-full px-4 py-2 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                </div>
+
+                <!-- Subject Input -->
+                <input type="text" placeholder="Subject"
+                    class="w-full px-4 py-2 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+
+                <!-- Message Input -->
+                <textarea placeholder="Message" rows="6"
+                    class="w-full px-4 py-2 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"></textarea>
+
+                <!-- Submit Button -->
+                <button type="submit"
+                    class="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-all duration-200 w-full md:w-auto">
+                    Send Message
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="bg-black text-gray-300 py-12">
+        <div class="container mx-auto px-4">
+            <!-- Name/Brand -->
+            <h2 class="text-white text-3xl font-bold text-center mb-8">Farhan</h2>
+
+            <!-- Navigation -->
+            <nav class="mb-8">
+                <ul class="flex justify-center space-x-8 text-sm">
+                    <li><a href="#about" class="hover:text-white transition-colors">ABOUT ME</a></li>
+                    <li><a href="#education" class="hover:text-white transition-colors">EDUCATION</a></li>
+                    <li><a href="#skills" class="hover:text-white transition-colors">SKILLS</a></li>
+                    <li><a href="#projects" class="hover:text-white transition-colors">PROJECTS</a></li>
+                    <li><a href="#contact" class="hover:text-white transition-colors">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <!-- Social Links -->
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="#"
+                    class="w-10 h-10 border border-gray-600 rounded-full flex items-center justify-center hover:border-white hover:text-white transition-colors">
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                </a>
+                <a href="https://github.com/Farhan1115"
+                    class="w-10 h-10 border border-gray-600 rounded-full flex items-center justify-center hover:border-white hover:text-white transition-colors">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/farhanrifat/"
+                    class="w-10 h-10 border border-gray-600 rounded-full flex items-center justify-center hover:border-white hover:text-white transition-colors">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center text-sm text-gray-500">
+                <p>Copyright ©2025 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

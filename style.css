@@ -1,0 +1,26 @@
+#skills, #contact{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#about{
+    display: flex;
+    flex-direction: row;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#animated-text span {
+    display: inline-block; /* Treat each letter as a block for animation */
+    opacity: 0; /* Start invisible */
+    animation: slideIn 0.5s ease forwards; /* Sliding animation */
+}
